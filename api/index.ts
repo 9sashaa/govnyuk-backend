@@ -23,3 +23,5 @@ connectToDb().then((r) => {
 app.get("/", (req: Request, res: Response) => {
   res.send("Express + TypeScript Server");
 });
+
+export { app };

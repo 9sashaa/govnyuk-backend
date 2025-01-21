@@ -1,11 +1,11 @@
 {
   "name": "govbackend",
   "version": "1.0.0",
-  "main": "public/index.ts",
+  "main": "api/index.ts",
   "scripts": {
     "build": "npx tsc",
     "start": "node dist/index.js",
-    "dev": "nodemon public/index.ts"
+    "dev": "nodemon api/index.ts"
   },
   "keywords": [],
   "author": "",
