@@ -1,9 +1,9 @@
 import express, { Express, Request, Response } from "express";
 import dotenv from "dotenv";
 import cors from "cors";
-import { connectToDb } from "../src/config/db";
-import { playersRouter } from "../src/routers/playersRouter";
-import { gameRouter } from "../src/routers/gameRouter";
+import { connectToDb } from "./config/db";
+import { playersRouter } from "./routers/playersRouter";
+import { gameRouter } from "./routers/gameRouter";
 
 dotenv.config();
 const app: Express = express();
